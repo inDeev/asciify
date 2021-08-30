@@ -34,6 +34,16 @@ class AsciifyTest extends TestCase
         // Portugal
         $this->assertSame('Luis arguia a Julia que «bracoes, fe, cha, oxido, por, zangao» eram palavras do portugues.',
             Asciify::convert('Luís argüia à Júlia que «brações, fé, chá, óxido, pôr, zângão» eram palavras do português.'));
+        // Serbia
+        $this->assertSame('Ljubazni fenjerdzija chadjavog litsa khoce da mi pokazhe shtos.',
+            Asciify::convert('Љубазни фењерџија чађавог лица хоће да ми покаже штос.'));
+        // Russia
+        $this->assertSame('V chashchakh yuga zhil by tsitrus? Da, no fal\'shivyy ekzemplyar!',
+            Asciify::convert('В чащах юга жил бы цитрус? Да, но фальшивый экземпляр!'));
+        $this->assertSame('Ekh, chuzhak! Obshchiy s"yom tsen shlyap (yuft\')—vdryzg!',
+            Asciify::convert('Эх, чужак! Общий съём цен шляп (юфть)—вдрызг!'));
+        $this->assertSame('Eks-graf? Plyush iz"yat. B\'yom chuzhdyy tsen khvoshch!',
+            Asciify::convert('Экс-граф? Плюш изъят. Бьём чуждый цен хвощ!'));
         // Turkey
         $this->assertSame('Pijamali hasta yagiz sofore cabucak guvendi.',
             Asciify::convert('Pijamalı hasta yağız şoföre çabucak güvendi.'));
