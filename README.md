@@ -1,10 +1,10 @@
-# Very short description of the package
+# Asciify
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/indeev/asciify.svg?style=flat-square)](https://packagist.org/packages/indeev/asciify)
 [![Total Downloads](https://img.shields.io/packagist/dt/indeev/asciify.svg?style=flat-square)](https://packagist.org/packages/indeev/asciify)
 ![GitHub Actions](https://github.com/indeev/asciify/actions/workflows/main.yml/badge.svg)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
+This tool is used to convert any string containing letters with diacritics to string with ASCII (a-zA-Z) version of accented letters.
 
 ## Installation
 
