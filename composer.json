@@ -1,0 +1,42 @@
+{
+    "name": "indeev/asciify",
+    "description": "Tool that reformat letters with diacritics of given string to letters without diacritics",
+    "keywords": [
+        "indeev",
+        "asciify"
+    ],
+    "homepage": "https://github.com/indeev/asciify",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Petr Katerinak",
+            "email": "katerinak@indeev.eu",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Indeev\\Asciify\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Indeev\\Asciify\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
