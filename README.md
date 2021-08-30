@@ -1,7 +1,6 @@
 # Asciify
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/indeev/asciify.svg?style=flat-square)](https://packagist.org/packages/indeev/asciify)
-[![Total Downloads](https://img.shields.io/packagist/dt/indeev/asciify.svg?style=flat-square)](https://packagist.org/packages/indeev/asciify)
+[![Latest Stable Version](http://poser.pugx.org/indeev/asciify/v)](https://packagist.org/packages/indeev/asciify) [![Total Downloads](http://poser.pugx.org/indeev/asciify/downloads)](https://packagist.org/packages/indeev/asciify) [![Latest Unstable Version](http://poser.pugx.org/indeev/asciify/v/unstable)](https://packagist.org/packages/indeev/asciify) [![License](http://poser.pugx.org/indeev/asciify/license)](https://packagist.org/packages/indeev/asciify)
 
 This tool is used to convert any string containing letters with diacritics to string with ASCII (a-zA-Z) version of accented letters.
 
