@@ -1,6 +1,6 @@
 {
     "name": "indeev/asciify",
-    "description": "Tool that reformat letters with diacritics of given string to letters without diacritics",
+    "description": "This tool is used to convert any string containing letters with diacritics to string with ASCII (a-zA-Z) version of accented letters",
     "keywords": [
         "indeev",
         "asciify"
