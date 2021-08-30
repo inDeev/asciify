@@ -2,7 +2,6 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/indeev/asciify.svg?style=flat-square)](https://packagist.org/packages/indeev/asciify)
 [![Total Downloads](https://img.shields.io/packagist/dt/indeev/asciify.svg?style=flat-square)](https://packagist.org/packages/indeev/asciify)
-![GitHub Actions](https://github.com/indeev/asciify/actions/workflows/main.yml/badge.svg)
 
 This tool is used to convert any string containing letters with diacritics to string with ASCII (a-zA-Z) version of accented letters.
 
